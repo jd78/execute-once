@@ -28,6 +28,6 @@ let result = sumOnce.execute(() => sum(1,2))
 console.log(result) // result is 3
 
 let result2 = sumOnce.execute(() => sum(2,3))
-console.log(result) // result is still 3 so for each new function you need to instantiate the executeOnce again
+console.log(result2) // result is still 3 so for each new function you need to instantiate the executeOnce again
 
 ```
