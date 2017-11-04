@@ -7,7 +7,6 @@ function ExecuteOnceMain(){
 
         execute(f) {
             if(_hasBeenExecuted) return _result;
-            console.log('hey')
             _result = f()
             _hasBeenExecuted = true
             return _result
