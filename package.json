@@ -1,0 +1,27 @@
+{
+  "name": "execute-once",
+  "version": "1.0.0",
+  "description": "Execute a high order function just once, successive calls will eventually return the previous result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jd78/execute-once.git"
+  },
+  "keywords": [
+    "execute",
+    "once"
+  ],
+  "author": "Gennaro Del Sorbo <gennaro.delsorbo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jd78/execute-once/issues"
+  },
+  "homepage": "https://github.com/jd78/execute-once#readme",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.1"
+  }
+}
