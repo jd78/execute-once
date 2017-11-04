@@ -12,14 +12,14 @@ $ npm install execute-once
 ```js
 const executeOnce = require(execute-once)
 
-Execute a void high order function
-
+//Execute a void high order function
 let logOnce = new executeOnce()
 
 //Pass an high order function in the execute method
 logOnce.execute(() => console.log('test'))
 logOnce.execute(() => console.log('test')) // this call will not be executed
 
+//Execute a non-void high order function
 let sumOnce = new executeOnce()
 
 let sum = (a,b) => a+b
