@@ -9,7 +9,7 @@ $ npm install execute-once
 # Usage
 
 
-```
+```js
 const executeOnce = require(execute-once)
 
 Execute a void high order function
