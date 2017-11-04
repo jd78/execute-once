@@ -1,6 +1,6 @@
 {
   "name": "execute-once",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Execute a high order function just once, successive calls will eventually return the previous result.",
   "main": "index.js",
   "scripts": {
